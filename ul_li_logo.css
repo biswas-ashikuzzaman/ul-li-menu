@@ -1,0 +1,36 @@
+
+.home{
+    list-style-image: url(home.png);
+}
+.location{
+    list-style-image: url(location.png);
+}
+.contact{
+    list-style-image: url(contact.png);
+}
+#menu{
+    list-style-type: none;
+    margin: 16px 0 0 0;
+    background-color: burlywood;
+}
+#menu li {
+    margin-left: 2%;
+    float: left;
+    width: 100px;
+    
+}
+#menu li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+#menu li a:hover{
+    background-color: rgb(38, 232, 142);
+    color: burlywood;
+}
+div{
+    background-color: rgb(17, 122, 196);
+    overflow: hidden;
+    
+}
